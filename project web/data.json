@@ -1,0 +1,55 @@
+{
+  "restaurant": {
+    "name": "Afrinaija Pots",
+    "location": "House 18 Kimiroonko close to Bank Kigali, KG 40 St, Kigali",
+    "map_code": "334M+QP Kigali",
+    "phone": "+250 782 647 630",
+    "whatsapp": "https://wa.me/250782647630",
+    "rating": 4.8,
+    "reviews_count": 788,
+    "hours": "Open daily – Closes 11 PM"
+  },
+  "menu_highlights": [
+    {
+      "name": "Vegetable Soup (Efo Riro)",
+      "description": "A rich, nutrient-dense medley of fresh spinach, locust beans, and premium proteins.",
+      "image": "https://r2-bucket.flowith.net/f/c1a5cfb8956e852a/nigerian_vegetable_soup_photography_index_2%401200x896.jpeg",
+      "tag": "Chef's Choice"
+    },
+    {
+      "name": "Egusi & Gari",
+      "description": "Ground melon seeds steamed with traditional spices and palm oil. Served with smooth Gari.",
+      "image": "https://r2-bucket.flowith.net/f/53f22c4068a5c2c4/egusi_soup_gari_plating_index_3%401200x896.jpeg",
+      "tag": "Classic"
+    },
+    {
+      "name": "Signature Jollof Rice & Beans",
+      "description": "Long-grain rice infused with a smoky tomato-pepper base, paired with honey beans.",
+      "image": "https://r2-bucket.flowith.net/f/9e4857e9a3d9fd01/nigerian_jollof_rice_beans_dish_index_4%401200x896.jpeg",
+      "tag": "Best Seller"
+    },
+    {
+      "name": "Jollof Rice Spaghetti",
+      "description": "Al dente pasta tossed in our signature spicy Jollof sauce. A modern, vibrant twist.",
+      "image": "https://r2-bucket.flowith.net/f/7ff0bf9ed2922329/nigerian_jollof_rice_cinematic_photography_index_1%402752x1536.jpeg",
+      "tag": "Modern Fusion"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "David M.",
+      "role": "Business Consultant",
+      "text": "I’ve visited many spots in Kigali, but the hospitality here is unmatched. The staff is professional and they make you feel like royalty."
+    },
+    {
+      "name": "Chiamaka A.",
+      "role": "Creative Director",
+      "text": "As a Nigerian in Kigali, I was searching for the right spice. The Egusi here is exactly how my grandmother makes it. Phenomenal!"
+    },
+    {
+      "name": "Sonia U.",
+      "role": "Lifestyle Blogger",
+      "text": "The presentation was stunning—a work of art. But the taste? Even better. They put a lot of heart into the details."
+    }
+  ]
+}
