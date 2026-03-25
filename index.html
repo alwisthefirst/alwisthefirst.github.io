@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afrinaija Pots | Authentic Nigerian Flavors in Kigali</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#0A0A0A] text-white">
+
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 glass-nav">
+        <nav class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-gold rounded-full flex items-center justify-center">
+                    <span class="text-black font-bold text-xl">A</span>
+                </div>
+                <h1 class="text-xl font-bold tracking-tighter uppercase">Afrinaija <span class="gold-text">Pots</span></h1>
+            </div>
+
+            <div class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-widest uppercase">
+                <a href="#about" class="hover:text-gold transition-colors">About</a>
+                <a href="#menu" class="hover:text-gold transition-colors">Menu</a>
+                <a href="#reviews" class="hover:text-gold transition-colors">Reviews</a>
+                <a href="#location" class="hover:text-gold transition-colors">Find Us</a>
+                <a href="https://wa.me/250782647630" target="_blank" class="btn-premium py-2 px-6">Order Now</a>
+            </div>
+
+            <button id="mobile-menu-btn" class="md:hidden text-gold">
+                <i data-lucide="menu"></i>
+            </button>
+        </nav>
+        <!-- Mobile Nav -->
+        <div id="mobile-nav" class="hidden md:hidden bg-black/95 absolute w-full p-8 border-b border-gold/20 flex flex-col gap-6 text-center text-lg">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#reviews" class="nav-link">Reviews</a>
+            <a href="#location" class="nav-link">Contact</a>
+            <a href="https://wa.me/250782647630" class="btn-premium justify-center">WhatsApp Order</a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative h-screen flex items-center overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <div class="hero-bg absolute inset-0 bg-[url('https://r2-bucket.flowith.net/f/7ff0bf9ed2922329/nigerian_jollof_rice_cinematic_photography_index_1%402752x1536.jpeg')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
+            <span class="reveal inline-block px-4 py-1 border border-gold text-gold text-xs font-bold uppercase tracking-[0.3em] mb-6">Authentic Nigeria in Kigali</span>
+            <h2 class="reveal text-5xl md:text-8xl font-black mb-8 leading-tight">Authentic Nigerian Flavors in the Heart of <span class="gold-text">Kigali</span></h2>
+            <p class="reveal text-lg md:text-2xl text-white/80 mb-10 max-w-2xl mx-auto font-light">Experience bold taste, rich culture, and unforgettable vibes with every pot we serve.</p>
+            <div class="reveal flex flex-wrap justify-center gap-4">
+                <a href="#menu" class="btn-premium">View Menu</a>
+                <a href="https://wa.me/250782647630" class="btn-outline flex items-center gap-2">
+                    <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp Order
+                </a>
+            </div>
+            <div class="reveal mt-12 flex items-center justify-center gap-4">
+                <div class="flex text-gold">
+                    <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                    <i data-lucide="star" class="fill-current w-5 h-5"></i>
+                </div>
+                <span class="text-sm font-bold tracking-widest uppercase">4.8 Rating (788 Reviews)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 adire-overlay bg-[#0A0A0A]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div class="reveal relative">
+                    <div class="absolute -top-4 -left-4 w-24 h-24 border-t-2 border-l-2 border-gold opacity-50"></div>
+                    <img src="https://r2-bucket.flowith.net/f/c1a5cfb8956e852a/nigerian_vegetable_soup_photography_index_2%401200x896.jpeg" alt="Nigerian Cuisine" class="rounded-lg shadow-2xl grayscale hover:grayscale-0 transition-all duration-1000">
+                    <div class="absolute -bottom-8 -right-8 bg-gold p-8 rounded-lg hidden lg:block">
+                        <p class="text-black font-black text-4xl">4.8</p>
+                        <p class="text-black/80 text-xs font-bold uppercase tracking-widest">Global Rating</p>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <h2 class="text-4xl md:text-5xl font-bold mb-8 italic">Our Roots, <span class="gold-text">Your Table</span></h2>
+                    <p class="text-text-muted text-lg mb-6 leading-relaxed">
+                        At Afrinaija Pots, we believe that food is the ultimate bridge between cultures. Born from a passion for authentic West African culinary craftsmanship, we brought the fiery spirit and rich traditions of Nigeria to the hills of Kigali.
+                    </p>
+                    <p class="text-text-muted text-lg mb-8 leading-relaxed">
+                        We don't compromise. Our spices are sourced from the heart of Nigeria, and our techniques are passed down through generations. Whether you are a Nigerian longing for home or a Kigali local on a spicy adventure, our pots are open for you.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="stat-card p-4">
+                            <h4 class="gold-text font-bold uppercase text-xs tracking-widest mb-1">Authentic</h4>
+                            <p class="text-sm text-white/70">100% Naija Spices</p>
+                        </div>
+                        <div class="stat-card p-4">
+                            <h4 class="gold-text font-bold uppercase text-xs tracking-widest mb-1">Service</h4>
+                            <p class="text-sm text-white/70">Dine-in & Drive-thru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="py-24 bg-[#050505]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="reveal text-5xl font-bold mb-4">Signature <span class="gold-text">Pots</span></h2>
+                <p class="reveal text-text-muted tracking-[0.2em] uppercase text-xs">A curated selection of our most-loved masterpieces</p>
+            </div>
+            
+            <div id="menu-grid" class="reveal grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Injected via JS -->
+            </div>
+            
+            <div class="reveal mt-16 text-center">
+                <a href="https://wa.me/250782647630" class="btn-premium">View Full Menu & Prices</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-24 bg-[#0A0A0A] adire-overlay">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="reveal p-8">
+                    <i data-lucide="award" class="w-10 h-10 mx-auto mb-4 gold-text"></i>
+                    <h3 class="font-bold mb-2">4.8★ Rating</h3>
+                    <p class="text-xs text-text-muted uppercase tracking-widest">788 Reviews</p>
+                </div>
+                <div class="reveal p-8 border-l border-white/5">
+                    <i data-lucide="heart" class="w-10 h-10 mx-auto mb-4 gold-text"></i>
+                    <h3 class="font-bold mb-2">Heritage</h3>
+                    <p class="text-xs text-text-muted uppercase tracking-widest">Pure Traditions</p>
+                </div>
+                <div class="reveal p-8 border-l border-white/5">
+                    <i data-lucide="chef-hat" class="w-10 h-10 mx-auto mb-4 gold-text"></i>
+                    <h3 class="font-bold mb-2">Fresh</h3>
+                    <p class="text-xs text-text-muted uppercase tracking-widest">Premium Meats</p>
+                </div>
+                <div class="reveal p-8 border-l border-white/5">
+                    <i data-lucide="truck" class="w-10 h-10 mx-auto mb-4 gold-text"></i>
+                    <h3 class="font-bold mb-2">Express</h3>
+                    <p class="text-xs text-text-muted uppercase tracking-widest">Fast Delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-20 bg-green-950/20">
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-center gap-12 md:gap-24 opacity-60">
+            <div class="flex items-center gap-3">
+                <i data-lucide="utensils-crossed" class="w-6 h-6"></i>
+                <span class="text-xs font-bold uppercase tracking-widest">Dine-In</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <i data-lucide="car" class="w-6 h-6"></i>
+                <span class="text-xs font-bold uppercase tracking-widest">Drive-Through</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <i data-lucide="shopping-bag" class="w-6 h-6"></i>
+                <span class="text-xs font-bold uppercase tracking-widest">Delivery</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <i data-lucide="rainbow" class="w-6 h-6 text-orange-400"></i>
+                <span class="text-xs font-bold uppercase tracking-widest">LGBTQ+ Friendly</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-24 bg-[#0A0A0A]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="reveal text-4xl font-bold mb-4">Voices of <span class="gold-text">Excellence</span></h2>
+            </div>
+            <div id="reviews-grid" class="reveal grid md:grid-cols-3 gap-8">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section id="location" class="py-24 bg-[#050505]">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="reveal">
+                    <h2 class="text-4xl font-bold mb-8">Visit <span class="gold-text">Us</span></h2>
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="map-pin" class="gold-text w-6 h-6 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold mb-1">Our Address</h4>
+                                <p class="text-text-muted">House 18 Kimiroonko close to Bank Kigali, KG 40 St, Kigali</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="clock" class="gold-text w-6 h-6 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold mb-1">Opening Hours</h4>
+                                <p class="text-text-muted">Open Daily: 11:00 AM – 11:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <i data-lucide="phone" class="gold-text w-6 h-6 flex-shrink-0"></i>
+                            <div>
+                                <h4 class="font-bold mb-1">Phone</h4>
+                                <p class="text-text-muted">+250 782 647 630</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://maps.google.com/?q=KG+40+St+Kigali+Afrinaija+Pots" target="_blank" class="btn-premium">Get Directions</a>
+                </div>
+                <div class="reveal h-[400px] rounded-xl overflow-hidden shadow-2xl map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15950.155700774212!2d30.1136!3d-1.9567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca6ee466a9b4d%3A0x6e76814b7cc22dfa!2sKimironko%2C%20Kigali!5e0!3m2!1sen!2srw!4v1700000000000" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-gradient-to-r from-green-900 to-green-950 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10 adire-overlay"></div>
+        <div class="max-w-4xl mx-auto px-6 text-center relative z-10">
+            <h2 class="reveal text-5xl md:text-6xl font-black mb-10 leading-tight">Craving Real <span class="gold-text">Nigerian</span> Flavor?</h2>
+            <div class="reveal flex flex-wrap justify-center gap-6">
+                <a href="https://wa.me/250782647630" class="btn-premium py-4 px-10 text-lg">Order via WhatsApp</a>
+                <a href="tel:+250782647630" class="bg-white text-black py-4 px-10 rounded font-bold uppercase tracking-widest hover:bg-gold transition-colors flex items-center gap-2">
+                    <i data-lucide="phone-call" class="w-5 h-5"></i> Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black pt-20 pb-10 border-t border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-2">
+                    <div class="flex items-center gap-2 mb-6">
+                        <div class="w-8 h-8 bg-gold rounded-full flex items-center justify-center">
+                            <span class="text-black font-bold text-sm">A</span>
+                        </div>
+                        <h1 class="text-lg font-bold tracking-tighter uppercase">Afrinaija <span class="gold-text">Pots</span></h1>
+                    </div>
+                    <p class="text-text-muted max-w-sm mb-6">
+                        The Soul of Nigeria in Kigali. Experience authentic West African craftsmanship and the warmest hospitality in Rwanda.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:border-gold hover:text-gold transition-all">
+                            <i data-lucide="instagram" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:border-gold hover:text-gold transition-all">
+                            <i data-lucide="facebook" class="w-5 h-5"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 border border-white/10 rounded-full flex items-center justify-center hover:border-gold hover:text-gold transition-all">
+                            <i data-lucide="twitter" class="w-5 h-5"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold uppercase tracking-widest text-sm mb-6">Quick Links</h4>
+                    <ul class="space-y-4 text-text-muted text-sm">
+                        <li><a href="#menu" class="hover:text-gold">Full Menu</a></li>
+                        <li><a href="#about" class="hover:text-gold">Our Story</a></li>
+                        <li><a href="#" class="hover:text-gold">Delivery Partners</a></li>
+                        <li><a href="#" class="hover:text-gold">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold uppercase tracking-widest text-sm mb-6">Contact</h4>
+                    <ul class="space-y-4 text-text-muted text-sm">
+                        <li class="flex items-center gap-2"><i data-lucide="phone" class="w-4 h-4"></i> +250 782 647 630</li>
+                        <li class="flex items-center gap-2"><i data-lucide="mail" class="w-4 h-4"></i> hello@afrinaijapots.com</li>
+                        <li class="flex items-center gap-2"><i data-lucide="map-pin" class="w-4 h-4"></i> KG 40 St, Kigali</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-10 border-t border-white/5 text-center text-xs text-text-muted uppercase tracking-[0.3em]">
+                &copy; 2026 Afrinaija Pots Restaurant. Boldly African.
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
